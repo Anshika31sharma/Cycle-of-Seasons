@@ -13,6 +13,7 @@ body{
     color: #fff;
     font-family: "Balsamiq Sans",cursive;
     position:relative;
+    font-size: 16px;
 }
 h2{
    font-size:2.5rem;
@@ -21,6 +22,11 @@ h2{
 }
 p{
     font-size: 2rem;
+}
+@media screen and (min-width: 768px) {
+    body {
+        font-size: 18px; /* Increase font size for larger screens */
+    }
 }
 .Months{
     height: 100vh;
@@ -59,8 +65,6 @@ p{
 
 .text-anime{
     animation: text_anime 1.5s ease;
-    text-shadow: 1px 2px 3px #111;
-    background-color: rgba(0,0,0,0.2);
     padding: 0.4rem;
 }
 @keyframes text_anime{
